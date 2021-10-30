@@ -9,3 +9,28 @@ Enter no of rows : 4
 7 8 9 10
 
 
+Solution:
+
+#include <stdio.h>
+int main()
+{
+  int i,rows,j;
+  printf("Enter no of rows : ");
+  scanf("%d",&rows);
+
+  for (i=1;i<=rows;i--)
+  {
+    /* code */
+    for(j=1;j<=i;j++)
+    {
+      printf("%d\n",i++);
+    }
+    printf("\n");
+  }
+
+return 0;
+}
+
+
+
+
